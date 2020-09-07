@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Binary Search in JS"
-date:       2020-09-04 17:20:34 +0000
+date:       2020-09-04 13:20:35 -0400
 permalink:  binary_search_in_js
 ---
 
@@ -52,7 +52,7 @@ function searchNumbersFaster(arr, n) {
 
   while (startIndex <= endIndex) {
 	
-	let midIndex = Math.floor((start + end) / 2)
+	let midIndex = Math.floor((startIndex + endIndex) / 2)
 	
 	if (arr[midIndex] === n) {
 	  return midIndex
