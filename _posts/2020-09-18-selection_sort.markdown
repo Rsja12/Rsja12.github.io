@@ -34,7 +34,7 @@ function sortNumbers(arr) {
 
 So we declare a variable `currentLowest`. This is the variable that's going to keep track of the index of the minimum value. Then we begin iterating over our array starting at position 0. Inside this loop, we assign `i` as the value of `currentLowest` because on our first iteration we've only seen the first value so that is our current lowest value. 
 
-The next thing we want to do is a nested loop so that we can compare the next value in our array with `arr[currentLowest]`. What we're checking for, is if the next value in the array is less than `arr[currentValue]`. If it is, we want to update the value of lowest to be the index of the next value:
+The next thing we want to do is a nested loop so that we can compare the next value in our array with `arr[currentLowest]`. What we're checking for, is if the next value in the array is less than `arr[currentLowest]`. If it is, we want to update the value of lowest to be the index of the next value:
 
 ```
 function sortNumbers(arr) {
