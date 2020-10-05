@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript's .forEach() method"
-date:       2020-10-05 14:02:30 +0000
+date:       2020-10-05 10:02:30 -0400
 permalink:  javascripts_foreach_method
 ---
 
